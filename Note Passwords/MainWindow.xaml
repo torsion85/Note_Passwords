@@ -5,4 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Note_Passwords"
         mc:Ignorable="d"
-        Title="MainWindow" Height="543.638" Width="1100.449"/>
+        Title="MainWindow" Height="543.638" Width="1100.449">
+    <Grid HorizontalAlignment="Left" Height="503" Margin="0,10,0,0" VerticalAlignment="Top" Width="1090">
+        <Button Content="Добавить" HorizontalAlignment="Left" VerticalAlignment="Top" Width="185" Margin="39,30,0,0" Height="47"/>
+        <TextBox HorizontalAlignment="Left" Height="47" Margin="355,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="239" SpellCheck.IsEnabled="True"/>
+    </Grid>
+</Window>
